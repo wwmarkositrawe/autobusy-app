@@ -1,0 +1,11 @@
+html, body {
+    background: linear-gradient(to bottom left,rgba(255, 255, 102, 0.25), rgba(102, 204, 255, 0.11));
+    margin: 0;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+  
