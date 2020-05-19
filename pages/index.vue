@@ -12,6 +12,12 @@ export default {
   computed: {
     loadedPosts() {
       return this.$store.getters.loadedPosts
+      .filter(post => {
+        return post.title.match(this.search);
+      })
+      .sort(function(a, b) {
+        return new Date(b.updatedDate) - new Date(a.updatedDate);
+      });     
     }
   },
   created() {

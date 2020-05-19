@@ -9,7 +9,7 @@
       <p class="post-content">{{loadedPost.content}}</p>
     </section>
     <section class="post-feedback">
-      <p>W razie pytań - jesteśmy do dyspozycji. Zajrzyj na podstronę <a href='/about'>o nas</a>.</p>
+      <p>W razie pytań - jesteśmy do dyspozycji. Zajrzyj na podstronę <a href='/contact'>kontakt</a>.</p>
     </section>
   </div>
 </template>

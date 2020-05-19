@@ -20,8 +20,13 @@ export default {
     ],
     link: [
           { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-          { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital@1&display=swap"}        
-  ],
+          { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital@1&display=swap"},
+          { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Raleway" },
+          { rel: "stylesheet", href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" },          
+          ],
+          script: [
+            ],
+
   },
   /*
    ** Customize the progress-bar color
@@ -35,7 +40,7 @@ export default {
    ** Global CSS
    */
   css: [
-    '~/assets/styles/main.css'
+    '~/assets/styles/main.css',
   ],
   /*
    ** Plugins to load before mounting the App
@@ -57,6 +62,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
+    'bootstrap-vue/nuxt',
   ],
   /*
    ** Axios module configuration

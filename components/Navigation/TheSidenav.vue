@@ -11,8 +11,7 @@
       <ul
         class="nav-list"
         @click="$emit('close')">
-        <li class="nav-item"><nuxt-link to="/posts">Aktualności</nuxt-link></li>
-        <li class="nav-item"><nuxt-link to="/about">O nas</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/contact">Kontakt</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/timetables">Rozkłady jazdy</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/journey">Zaplanuj trasę</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/admin">Admin</nuxt-link></li>

@@ -3,13 +3,12 @@
   <header class="the-header">
     <TheSideNavToggle @toggle="$emit('sidenavToggle')" />
     <div class="logo">
-      <nuxt-link to="/">Przewozy autobusowe XYZ</nuxt-link>
+      <nuxt-link to="/">Przewozy autobusowe XYZ - Strona główna</nuxt-link>
     </div>
     <div class="spacer"></div>
     <div class="navigation-items">
       <ul class="nav-list">
-        <li class="nav-item"><nuxt-link to="/posts">Aktualności</nuxt-link></li>
-        <li class="nav-item"><nuxt-link to="/about">O nas</nuxt-link></li>
+        <li class="nav-item"><nuxt-link to="/contact">Kontakt</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/timetables">Rozkłady jazdy</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/journey">Zaplanuj trasę</nuxt-link></li>
         <li class="nav-item"><nuxt-link to="/admin">Admin</nuxt-link></li>

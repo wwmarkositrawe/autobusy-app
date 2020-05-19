@@ -1,7 +1,7 @@
 <template>
   <div class="error-page">
     <h1>Coś poszło nie tak...</h1>
-    <p>Wróć do <a href="/">strony głównej</a>!</p>
+    <p>Wróć na <a href="/">stronę główną</a>!</p>
   </div>
 </template>
 
