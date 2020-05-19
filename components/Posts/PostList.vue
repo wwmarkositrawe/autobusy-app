@@ -34,6 +34,12 @@ export default {
 
 <style scoped>
 
+@media (max-width: 768px) {
+  .post-list {
+    margin-top: 5px;
+  }
+}
+
 .post-list {
   display: flex;
   padding: 20px;

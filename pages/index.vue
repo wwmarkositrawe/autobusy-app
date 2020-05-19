@@ -31,10 +31,16 @@ export default {
 .intro {
   height: auto;
   position: relative;
-  padding: 50px;
+  padding: 30px;
   box-sizing: border-box; 
   background-position: center;
   background-size: cover;    
+}
+
+@media (min-width: 768px) {
+  .intro h1 {
+    font-size: 1rem;
+  }
 }
 
 .intro h1 {
@@ -42,7 +48,7 @@ export default {
   top: 10%;
   left: 5%;
   width: 90%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: black;
   background-color: rgb(211, 211, 211);
   padding: 10px;
@@ -50,6 +56,7 @@ export default {
   box-shadow: 3px 3px 3px black;
   box-sizing: border-box;
   border: 1px solid black;
+  margin-top: 7px;
 }
 
 @media (min-width: 768px) {

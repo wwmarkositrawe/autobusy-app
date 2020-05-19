@@ -88,6 +88,7 @@ export default {
   color: white;
 }
 
+.nuxt-link-exact-active:hover,
 .nav-item a:hover,
 .nav-item a:active,
 .nav-item a.nuxt-link-active {
